@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#display {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 28rem;
+    height: 8rem;
+    background-color: grey;
+    color: red;
+
+}
